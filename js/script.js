@@ -40,8 +40,8 @@ if( (window.innerWidth) <= 768){
     barshid.style.display = "none";
 }
 if( (window.innerWidth) > 768){
-    bars.style.display = "none";
     barshid.style.display = "none";
+    barsshow.style.display = "none";
 }
 barsshow.onclick = function (){
     hiddenParts.style.display = "block";
